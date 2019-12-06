@@ -2,6 +2,14 @@
     <string name="app_name">MaterialDesignTest</string>
     <string name="shr_user_name">Username</string>
     <string name="shr_password">Password</string>
+    <string name="shr_featured_label">FEATURE</string>
+    <string name="shr_apartment_label">APARTMENT</string>
+    <string name="shr_accessories_label">ACCESSORIES</string>
+    <string name="shr_shoes_label">SHOES</string>
+    <string name="shr_tops_label">TOPS</string>
+    <string name="shr_bottoms_label">BOTTOMS</string>
+    <string name="shr_dresses_label">DRESSES</string>
+    <string name="shr_account_label">MY ACCOUNT</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
