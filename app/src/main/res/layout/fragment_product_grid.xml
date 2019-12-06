@@ -7,15 +7,16 @@
     tools:context=".ProductGridFragment">
 <com.google.android.material.appbar.AppBarLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    app:elevation="0dp"
+    >
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:navigationIcon="@drawable/shr_menu"
-        style="@style/Widget.AppCompat.Toolbar"
+        style="@style/ToolbarTheme"
         app:title="Shrine"
-        app:titleTextColor="@android:color/white"
 
         />
 </com.google.android.material.appbar.AppBarLayout>
@@ -23,6 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
+        android:elevation="8dp"
         >
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_view"

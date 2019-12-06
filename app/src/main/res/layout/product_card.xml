@@ -5,14 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardElevation="4dp"
+    app:cardElevation="0dp"
     app:cardPreventCornerOverlap="true"
     >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@android:color/holo_purple"
         >
         <ImageView
             android:id="@+id/productImage"
@@ -32,15 +31,17 @@
                 android:id="@+id/txtTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
                 android:textSize="18sp"
                 android:textStyle="bold"
+                android:textAlignment="center"
+                style="?attr/textAppearanceSubtitle1"
                 />
             <TextView
                 android:id="@+id/txtSecondaryText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Secondary text"
+                android:textAlignment="center"
+                style="?attr/textAppearanceBody1"
                 />
         </LinearLayout>
     </LinearLayout>

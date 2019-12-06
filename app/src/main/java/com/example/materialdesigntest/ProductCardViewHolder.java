@@ -10,7 +10,7 @@ import com.android.volley.toolbox.NetworkImageView;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class ProductCardViewHolder extends RecyclerView.ViewHolder {
-    
+
     ImageView productImage;
     TextView txtTitle;
     TextView txtSubtitle;
